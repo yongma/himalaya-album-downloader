@@ -15,3 +15,11 @@ Start spider with crawl.py script with album's url as only parameter, for exampl
 python crawl.py https://www.ximalaya.com/youshengshu/40387701
 ```
 Downloaded media file will saved in *data* directory in top-level directory of this project  as default, a directory with album id as its name will be created, and all media file is preserved in this directory. 
+```
+data/
+└── 40387701
+    ├── 1.m4a
+    ├── 2.m4a
+    ├── 3.m4a
+    └── tracks.txt
+```
