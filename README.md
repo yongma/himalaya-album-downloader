@@ -1,6 +1,6 @@
 # Himalaya Album Downloader
 
-喜马拉雅专辑音频下载器, Himalaya album track media files downloader. 
+喜马拉雅专辑音频下载器, Himalaya/Ximalaya album track media files downloader. 
 An experimental spider program for downloading album track media files from famous audio-sharing platfrom Himalaya(喜马拉雅), only for researching and learning, do not use this for commercial purpose.
 
 ## Technical information
