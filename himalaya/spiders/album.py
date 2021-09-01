@@ -23,11 +23,11 @@ class AlbumSpider(scrapy.Spider):
             )[-1]
 
     def parse(self, response):
-        for track_li in response.xpath('//li[@class="_Vc"]'):
+        for track_li in response.xpath('//li[@class="lF_"]'):
             idx = track_li.xpath(
-                './/span[@class="num _Vc"]/text()'
+                './/span[@class="num lF_"]/text()'
             ).extract_first()
-            title = track_li.xpath('./div/a/@title').extract_first()
+            title = track_li.xpath('//span[@class="title lF_"]').extract_first()
             link = track_li.xpath('./div/a/@href').extract_first()
             if not idx or not title or not link:
                 continue
